@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-image: url('');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.jumbotron {
+  background-color: #06793a;
+  background-size: cover;
+  font-size: 20px;
+  padding: 60px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: -20px;
+}
+
+
+nav {
+  background-color: brown;
+  padding: 30px;
+  margin-top: 20px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+main{
+  padding: 15px;
+  overflow: auto;
+}
+
+
+.card {
+  background-color: #8458B3;
+  box-shadow: 0 4px 8px 0 rgb(3, 50, 27);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+
+h2, h3 {
+  color: #feffdd;
+}
+
+.profile {
+  color: aliceblue;
+}s
+
+
+.profile header {
+  text-align: center;
+}
+
+
+.profile img {
+  width: 200px;
+}
+
+.profile section, table{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile th, td {
+  background-color: rgba(13, 13, 13, 0.6);
+  padding: 8px;
+}
+
+.featured-images {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+footer {
+  padding: 10px;
+  color: white;
+  background-color: #524f4d;
+
+  text-align: center;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000; 
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 15px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 18px;
+  background-color: #3b3733;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex; 
+}
+
+.container aside {
+  flex: 1; 
+  align-items: center;
+  text-align: center; 
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+@media screen and (max-width: 1000px) {
+  #content, aside {
+    width: 100%;
+    padding: 0;
+  }
+}
